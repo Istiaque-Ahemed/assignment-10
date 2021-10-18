@@ -2,8 +2,9 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './component/Header/Header';
 import Banner from './component/Banner/Banner';
-import Service from './component/Service/Service';
 import Services from './component/Services/Services';
+import Doctors from './component/Doctors/Doctors';
+import Login from './component/Login/Login';
 
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
       <Header></Header>
         <Banner></Banner>
         <Services></Services>
+        <Doctors></Doctors>
+        <Login></Login>
     </div>
   );
 }

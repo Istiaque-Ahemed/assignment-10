@@ -1,0 +1,44 @@
+.doctors{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap: 30px;
+    padding: 40px;
+}
+.doctors img{
+    width: 600px;
+}
+.doctors h3{
+    text-align: center;
+    color: #00BCD8;
+}
+.doctors p{
+    text-align: center;
+}
+.doc-hedr{
+    text-align: center;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.2);
+}
+
+
+@media only screen and (max-width: 767px) {
+    .doctors{
+        display: grid;
+        grid-template-columns:repeat(1,1fr)
+    }
+    
+    .doctors img{
+        width: 300px;
+    }
+    hr{
+        margin-left: 145px;
+    }
+
+}
