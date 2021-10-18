@@ -5,18 +5,18 @@ import './Service.css'
 const Service = (props) => {
     const { name, description, img } = props.service;
     return (
-        <div className="col-lg-4 col-md-3 col-12">
-            <Card className="mb-4">
+        <div className="card-bod col-lg-4 col-md-3 col-12">
+            <Card className="card shadow">
+                <div className="inner">
                 <Card.Img variant="top" src={img} />
+                </div>
                 <Card.Body>
                     <h3>{name}</h3>
                     <Card.Text>
                         {description}
                     </Card.Text>
                 </Card.Body>
-                <Card.Footer>
-                    <Button className="button" variant="success">Details</Button>
-                </Card.Footer>
+                    <Button className="button" variant="">Details</Button>
             </Card>
         </div>
     );
