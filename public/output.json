@@ -1,0 +1,50 @@
+ [
+  {
+    "id": 1,
+    "name": "Dental Filling for Cavities",
+    "description": "To treat a cavity your dentist will remove the decayed portion of the tooth and then fill the area on the tooth where the decayed material was removed",
+    "img": "https://image.freepik.com/free-photo/experienced-attractive-young-brunette-woman-dentist-holding-dental-tools-while-checking-teeth-female-patient-cavities_343059-399.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Regular Dental Cleaning",
+    "description": "Regular cleaning is done to maintain the cleanliness of the teeth to prevent cavities and keep off gum diseases. The tartar removed has not quite invaded the gums and is removed using a scaler.",
+    "img": "https://image.freepik.com/free-photo/little-boy-patient-dentist_1303-24383.jpg"
+  },
+  {
+    "id": 3,
+    "name": "DTingling Sensation-pulpitis ",
+    "description": "If you notice a tingling sensation in one of your teeth or sharp pain when eating something hot or cold that goes beyond regular tooth sensitivity, you may be dealing with pulpitis.",
+    "img": "https://images.ctfassets.net/g18drechotog/6MOsIbTKLjs4agpMxGqMFF/ebab8fde1768344f9474962fce1f528f/pulpitis-causes-symptoms-treatment-methods.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Root canals",
+    "description": "Root canal is a treatment to repair and save a badly damaged or infected tooth instead of removing it. The term root canal comes from cleaning of the canals inside a tooth's root. Decades ago, root canal treatments often were painful.",
+    "img": "https://www.dental-chiangmai.com/images/root-canal-treatment-2.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Placement and restoration",
+    "description": "To treat a cavity your dentist will remove the decayed portion of the tooth and then fill the area on the tooth where the decayed material was removed",
+    "img": "https://images.unsplash.com/photo-1619691249147-c5689d88016b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=550&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Full and partial dentures",
+    "description": "Two types of dentures are available -- complete and partial dentures. Complete dentures are used when all the teeth are missing, while partial dentures are used when some natural teeth remain.",
+    "img": "http://dentmind.com/wp-content/uploads/2015/09/plano-dentist-dentures.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Implants",
+    "description": "A dental implant (also known as an endosseous implant or fixture) is a surgical component that interfaces with the bone of the jaw or skull to support a dental prosthesis such as a crown, bridge, denture, or facial prosthesis or to act as an orthodontic anchor. ",
+    "img": "https://wmsmile.com/wp-content/uploads/2018/09/MiniDentalImplant1.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Orthodontics",
+    "description": "Orthodontics is a branch of dentistry that treats malocclusion, a condition in which the teeth are not correctly positioned when the mouth is closed.",
+    "img": "https://www.labbefamilyortho.com/wp-content/uploads/Jawbone-Alignment.jpg"
+  }
+]

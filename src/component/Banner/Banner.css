@@ -1,0 +1,36 @@
+.caro-headr{
+    text-align: center;
+    color:#335637;
+    /* margin-bottom: 150px; */
+    font-size: 40px;
+    font-weight:300;
+    font-family: 'Varela Round', sans-serif;    
+}
+.caro-headr b{
+    color:#00BCD8;
+    font-weight: 800;
+    
+}
+.caro-para{
+    color: black;
+    /* margin-bottom: 60px; */
+
+}
+
+     /* Media querise  */
+
+@media only screen and (max-width: 767px) {
+    .caro-headr{
+    
+        color:#0624c9;
+        font-family: 'Varela Round', sans-serif; 
+        font-size: 20px;   
+    }  
+    .caro-para{
+        display: none;
+    } 
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+}
