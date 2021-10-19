@@ -3,6 +3,8 @@
     grid-template-columns:repeat(2,1fr);
     grid-gap: 30px;
     padding: 40px;
+    font-family: 'Varela Round', sans-serif;    
+
 }
 .doctors img{
     width: 600px;
@@ -16,7 +18,13 @@
 }
 .doc-hedr{
     text-align: center;
+    font-family: 'Varela Round', sans-serif;    
+
 }
+.doc-hedr b{
+    color: #00BCD8;
+}
+
 .inner{
     overflow: hidden;
 }
