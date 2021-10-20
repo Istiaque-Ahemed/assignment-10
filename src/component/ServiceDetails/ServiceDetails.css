@@ -1,0 +1,38 @@
+.service-headr{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;    
+
+}
+.service-dtl{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    font-family: 'Varela Round', sans-serif;    
+
+
+}
+.descript{
+    text-align: center;
+    padding-top: 140px;
+}
+.dtls-img{
+    border-radius: 70px;
+    padding: 40px;
+}
+
+@media only screen and (max-width: 767px){
+    .service-dtl{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .dtls-img{
+        width: 355px;
+        border-radius: 30px;
+        padding: 40px;
+    }
+    .descript{
+        text-align: center;
+        padding-right: 10px;
+        
+    }
+}

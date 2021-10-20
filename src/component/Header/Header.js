@@ -1,6 +1,8 @@
 import React from 'react';
 import './Headar.css';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link, NavLink } from 'react-router-dom';
+import deant1 from '../../images/dental-checkup.png'
 
 const Header = () => {
     return (
@@ -8,21 +10,29 @@ const Header = () => {
 
             <Navbar bg="light" variant="light" collapseOnSelect expand="lg" sticky="top">
                 <Container >
-                    <Navbar.Brand href="#home">Dental</Navbar.Brand>
+                    <img
+                        src={deant1}
+                        width="30"
+                        height="30"
+                        className="d-inline-block align-top"
+                        alt=""
+                    />
+                    <Navbar.Brand to="/home">Dental</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                        
-                        <Nav.Link className="navbar" href="#home">Home</Nav.Link>
-                            <Nav.Link className="navbar" href="#features">Features</Nav.Link>
-                            <Nav.Link className="navbar" href="#pricing">Pricing</Nav.Link>
-                            <Navbar.Text>
-                            Signed in as: <a href="#login">Mark Otto</a>
+
+                        <NavLink className="navbar" to ="/home">Home</NavLink>
+                        <NavLink className="navbar" to ="/services">Services</NavLink>
+                        <NavLink className="navbar" to="/contact">Contact</NavLink>
+                        <NavLink className="navbar" to="/about">About</NavLink>
+                        <Navbar.Text>
+                            Signed in as: <NavLink to="/login">Login</NavLink>
                         </Navbar.Text>
-                    </Navbar.Collapse>    
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>
         </>
-            );
+    );
 };
 
-            export default Header;
+export default Header;

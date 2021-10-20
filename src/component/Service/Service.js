@@ -1,9 +1,11 @@
 import React from 'react';
 import { Card,Button} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Service.css'
 
 const Service = (props) => {
-    const { name, description, img } = props.service;
+    const { id,name, description, img } = props.service;
+    const url = `/service/${id}`;
     return (
         <div className="card-bod col-lg-4 col-md-3 col-12">
             <Card className="card shadow">
@@ -16,8 +18,14 @@ const Service = (props) => {
                         {description}
                     </Card.Text>
                 </Card.Body>
-                    <Button className="button" variant="">Details</Button>
+                   
+                    <br />
+            <Link to={url}>
+            <Button className="button" variant="">Details</Button>
+            </Link>
+
             </Card>
+
         </div>
     );
 };

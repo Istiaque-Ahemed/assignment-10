@@ -1,8 +1,24 @@
+import {getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import initializeAuthentication from '../../Firebase/firebase.init';
 import './Login.css';
 
+
+initializeAuthentication();
+const googleProvider = new GoogleAuthProvider();
+
+
 const Login = () => {
+    const auth = getAuth();
+
+    const handleGoogleSingIn = () =>{
+        signInWithPopup(auth,googleProvider)
+        .then(result =>{
+            const user = result.user;
+        })
+    }
     return (
         <>
             <div >
@@ -19,7 +35,7 @@ const Login = () => {
                     <br />
                     <Button className="login-btn" variant="outline-secondary">Login</Button>{' '}
 
-                   <Button className="login-btn" variant="outline-primary">Primary</Button>{' '}
+                   <Button  onClick={handleGoogleSingIn} className="login-btn" variant="outline-primary">Google Sign In</Button>{' '}
 
 
                     </div>
