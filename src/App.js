@@ -22,7 +22,6 @@ function App() {
           <Route exact path="/">
             <Header></Header>
             <Banner></Banner>
-            <Doctors></Doctors>
             <Services></Services>
             <Footer></Footer> 
           </Route>
@@ -71,10 +70,7 @@ function App() {
 
 
 
-      {/* <Header></Header>
-        
-        <About></About>
-      <Contact></Contact>*/}
+      
     </div>
   );
 }
