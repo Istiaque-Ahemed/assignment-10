@@ -4,6 +4,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import deant1 from '../../images/dental-checkup.png'
 
+
 const Header = () => {
     return (
         <>
@@ -17,7 +18,7 @@ const Header = () => {
                         className="d-inline-block align-top"
                         alt=""
                     />
-                    <Navbar.Brand to="/home">Dental</Navbar.Brand>
+                    <Navbar.Brand to="/home">Dental Care</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
 
@@ -26,7 +27,7 @@ const Header = () => {
                         <NavLink className="navbar" to="/contact">Contact</NavLink>
                         <NavLink className="navbar" to="/about">About</NavLink>
                         <Navbar.Text>
-                            Signed in as: <NavLink to="/login">Login</NavLink>
+                         <NavLink className="navbar-login" to="/login">Login</NavLink>
                         </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>

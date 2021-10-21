@@ -2,8 +2,9 @@
     margin-left: 450px;
     border:2px solid #d0d0d0;
     margin-right: 400px;
-    padding: 30px 27px 30px 0px;
-    font-family: 'Varela Round', sans-serif;    
+    padding: 60px 27px 60px 0px;
+    font-family: 'Varela Round', sans-serif;  
+
 
 }
 .login-from h2{
@@ -49,6 +50,13 @@
     color: white;
     border: none;
 }
+.check-and-resat{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
 
 @media only screen and (max-width: 767px) {
 
@@ -71,5 +79,17 @@
         font-size: 20px;
         padding-left: 60px;
     }
+    .check-and-resat{
+        display: flex;
+        align-content: stretch;
+        justify-content: space-around;
+        align-items: center;
+        
+        
+    }
+    .check-box{
+        margin-left: 340px;
+    }
+    
 
 }
