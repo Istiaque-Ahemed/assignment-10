@@ -3,10 +3,10 @@
 This is a dental care related website.This dental care have wonderful doctors.many facilities in our dental care.
  
 
- * This is a Dental related website.
+ * This is a dental care-related website. This dental care has wonderful doctors. Many   facilities in our dental care.The website has a Firebase login system.
  *  We have eight types of services.
  *  We have 4 good doctors in dental care.
- *  Our Services is very popular.
+ *  Customer can easily pick their services and easy to use this website.
  *  Many facilities in our cares.
 
 
